@@ -3,7 +3,7 @@ var app = builder.Build();
 
 app.MapGet("/", () => Results.Content(
     @"<html>
-      <body style='background-color: red;'>
+      <body style='background-color: blue;'>
         <h1>Welcome to Production Slot!</h1>
         <p>Thank you</p>
       </body>
